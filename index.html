@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+         <h1>VACCINE TRACKER<br></h1>
+         <p>VACCINE AT YOUR NEAR</p>
+    </header>
+    <main id="main">
+        <p><b>NOTE: </b> ENTER THE PIN CODE OF YOUR LOACTION AND DATE IT WILL SHOW AVAILABILITY IN YOUR LOCATION </p>
+        <input type="number" id="pin" placeholder="PIN">
+        <input type="text" id="date" placeholder="DD-MM-YYYY" onfocus="(this.type='date')">
+        <button type="submit" id="button">ENTER</button>
+        
+    </main>
+    <table class="table">
+        <thead>
+            <th class="center">CENTER ID</th>
+            <th>NAME</th>
+            <th>ADDRESS</th>
+            <th>DATE</th>
+            <th>VACCINE</th>
+            <th>SLOT</th>
+            <th>AVAILABILTY</th>
+            <th>MIN_AGE_LIMIT</th>
+        </thead>
+        <tbody id="tbody">
+           
+        </tbody>
+    </table>
+</body>
+<script src="index.js"></script>
+</html>
